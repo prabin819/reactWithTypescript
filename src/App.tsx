@@ -5,8 +5,8 @@ function App() {
   return (
     <div className="App">
       <Button
-        handleClick={() => {
-          alert("button clicked");
+        handleClick={(event) => {
+          console.log("button clicked", event);
         }}
       />
     </div>
